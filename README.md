@@ -30,4 +30,4 @@ This project fetches daily weather data from OpenWeatherMap API, cleans and norm
    ```
 3. This will open a browser window where you can view and interact with your weather data.
 
-![Weather Data Visualization](screenshot.png)
+<img src="screenshot.png" alt="Weather Data Visualization" width="700"/>
