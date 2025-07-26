@@ -17,3 +17,17 @@ This project fetches daily weather data from OpenWeatherMap API, cleans and norm
    ```
    python etl.py
    ```
+
+## Visualize Data with Streamlit
+
+1. Install Streamlit and pandas:
+   ```
+   pip install streamlit pandas
+   ```
+2. Run the Streamlit app:
+   ```
+   streamlit run app.py
+   ```
+3. This will open a browser window where you can view and interact with your weather data.
+
+![Weather Data Visualization](screenshot.png)
