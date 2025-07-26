@@ -30,5 +30,5 @@ This project fetches daily weather data from OpenWeatherMap API, cleans and norm
    ```
 3. This will open a browser window where you can view and interact with your weather data.
 
-<img src="[images/eatherDataVisualization.png](https://github.com/vullankib/etl-weather-pipeline/blob/main/images/weatherDataVisualization.png)" align="center" alt="Weather ETL Pipeline" width="600"/>
+<img src="https://github.com/vullankib/etl-weather-pipeline/blob/main/images/weatherDataVisualization.png" align="center" alt="Weather ETL Pipeline" width="600"/>
 
