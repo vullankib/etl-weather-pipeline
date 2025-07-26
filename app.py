@@ -9,8 +9,13 @@ df = pd.read_sql_query(query, conn)
 conn.close()
 
 st.title("Weather Data Visualization")
-st.dataframe(df)
+
+cities = df['city'].unique().tolist()
+selected_city = st.selectbox("Select a city", cities)
+city_df = df[df['city'] == selected_city]
+
+st.dataframe(city_df)
 
 # Example chart: temperature and humidity over time
-if 'date' in df.columns:
-    st.line_chart(df.set_index('date')[['temperature', 'humidity']])
+if 'date' in city_df.columns:
+    st.line_chart(city_df.set_index('date')[['temperature', 'humidity']])
